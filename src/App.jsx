@@ -1,5 +1,7 @@
 // import React from 'react'
 import bgVideo from "./assets/bg_video.mp4"
+import Banner2 from "./components/Banners/Banner"
+import Banner from "./components/Banners/Banner"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Services from "./components/Services/Services"
@@ -20,7 +22,8 @@ function App() {
       </div>
       {/* Service Section */}
       <Services/>
-      
+      <Banner/>
+      <Banner2/>
     </div>
   )
 }
