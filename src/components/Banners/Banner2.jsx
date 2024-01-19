@@ -8,7 +8,7 @@ function Banner() {
             <img src={Mountain} alt="mountain" className="h-[200px]" />
           </div>
           <div className="p-4 border-r-sky-800 border-r-2 border-b-2 border-b-sky-800 space-y-3 xl:pr-36">
-            <p className="text-sky-800 capitalize ">Our Missin</p>
+            <p className="text-sky-800 capitalize ">Our Mission</p>
             <h1 className="capitalize text-5xl">RapidCast</h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
