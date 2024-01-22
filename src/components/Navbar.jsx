@@ -6,9 +6,9 @@ function Navbar() {
           <div className="flex justify-between items-center">
             <div className="flex text-white items-center gap-4 font-bold text-2xl ">
               <img src={Logo} alt="logo" className="w-32" />
-              <span>COZY_SPACE</span>
+              <span className="hidden lg:block">COZY_SPACE</span>
             </div>
-            <div className="text-white">
+            <div className="text-white hidden md:block">
               <ul className="flex items-center gap-6 text-xl py-4 sm:py-0">
                 <li> <a href="#">About</a></li>
                 <li><a href="#">Technology</a></li>

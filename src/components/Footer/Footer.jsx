@@ -20,7 +20,7 @@ function Footer() {
             <div className="flex items-center h-10">
               <input
                 type="text"
-                className="py-1 px-3 w-full h-[100%] incline-block focus:outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500 bg-gray-800 border-gray-200 border-2 "
+                className="py-1 px-3 w-full h-[100%] incline-block focus:outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500 bg-gray-800 border-gray-200 border-2  border-r-0 "
                 placeholder="Email"
               />
               <button className="primary-button">OK</button>
